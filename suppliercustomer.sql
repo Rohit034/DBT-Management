@@ -5,7 +5,7 @@ CREATE TABLE suppliers
   state char(25),
   CONSTRAINT suppliers_pk PRIMARY KEY (supplier_id)
 );
-wfrgreg
+
 INSERT INTO suppliers
 (supplier_id, supplier_name, city, state)
 VALUES
